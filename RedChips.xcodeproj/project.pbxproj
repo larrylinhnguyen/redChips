@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46FC17301DBB1401005D22BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FC172F1DBB1401005D22BA /* AppDelegate.swift */; };
+		46FC17321DBB1401005D22BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FC17311DBB1401005D22BA /* ViewController.swift */; };
+		46FC17351DBB1401005D22BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FC17331DBB1401005D22BA /* Main.storyboard */; };
+		46FC17371DBB1401005D22BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46FC17361DBB1401005D22BA /* Assets.xcassets */; };
+		46FC173A1DBB1401005D22BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FC17381DBB1401005D22BA /* LaunchScreen.storyboard */; };
+		46FC17451DBB1401005D22BA /* RedChipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FC17441DBB1401005D22BA /* RedChipsTests.swift */; };
+		46FC17501DBB1401005D22BA /* RedChipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FC174F1DBB1401005D22BA /* RedChipsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46FC17411DBB1401005D22BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FC17241DBB1400005D22BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FC172B1DBB1401005D22BA;
+			remoteInfo = RedChips;
+		};
+		46FC174C1DBB1401005D22BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46FC17241DBB1400005D22BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FC172B1DBB1401005D22BA;
+			remoteInfo = RedChips;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46FC172C1DBB1401005D22BA /* RedChips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedChips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FC172F1DBB1401005D22BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46FC17311DBB1401005D22BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46FC17341DBB1401005D22BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46FC17361DBB1401005D22BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46FC17391DBB1401005D22BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46FC173B1DBB1401005D22BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FC17401DBB1401005D22BA /* RedChipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedChipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FC17441DBB1401005D22BA /* RedChipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedChipsTests.swift; sourceTree = "<group>"; };
+		46FC17461DBB1401005D22BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FC174B1DBB1401005D22BA /* RedChipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedChipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FC174F1DBB1401005D22BA /* RedChipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedChipsUITests.swift; sourceTree = "<group>"; };
+		46FC17511DBB1401005D22BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46FC17291DBB1401005D22BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FC173D1DBB1401005D22BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FC17481DBB1401005D22BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FC17231DBB1400005D22BA = {
+			isa = PBXGroup;
+			children = (
+				46FC172E1DBB1401005D22BA /* RedChips */,
+				46FC17431DBB1401005D22BA /* RedChipsTests */,
+				46FC174E1DBB1401005D22BA /* RedChipsUITests */,
+				46FC172D1DBB1401005D22BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46FC172D1DBB1401005D22BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FC172C1DBB1401005D22BA /* RedChips.app */,
+				46FC17401DBB1401005D22BA /* RedChipsTests.xctest */,
+				46FC174B1DBB1401005D22BA /* RedChipsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46FC172E1DBB1401005D22BA /* RedChips */ = {
+			isa = PBXGroup;
+			children = (
+				46FC172F1DBB1401005D22BA /* AppDelegate.swift */,
+				46FC17311DBB1401005D22BA /* ViewController.swift */,
+				46FC17331DBB1401005D22BA /* Main.storyboard */,
+				46FC17361DBB1401005D22BA /* Assets.xcassets */,
+				46FC17381DBB1401005D22BA /* LaunchScreen.storyboard */,
+				46FC173B1DBB1401005D22BA /* Info.plist */,
+			);
+			path = RedChips;
+			sourceTree = "<group>";
+		};
+		46FC17431DBB1401005D22BA /* RedChipsTests */ = {
+			isa = PBXGroup;
+			children = (
+				46FC17441DBB1401005D22BA /* RedChipsTests.swift */,
+				46FC17461DBB1401005D22BA /* Info.plist */,
+			);
+			path = RedChipsTests;
+			sourceTree = "<group>";
+		};
+		46FC174E1DBB1401005D22BA /* RedChipsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46FC174F1DBB1401005D22BA /* RedChipsUITests.swift */,
+				46FC17511DBB1401005D22BA /* Info.plist */,
+			);
+			path = RedChipsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46FC172B1DBB1401005D22BA /* RedChips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FC17541DBB1401005D22BA /* Build configuration list for PBXNativeTarget "RedChips" */;
+			buildPhases = (
+				46FC17281DBB1401005D22BA /* Sources */,
+				46FC17291DBB1401005D22BA /* Frameworks */,
+				46FC172A1DBB1401005D22BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedChips;
+			productName = RedChips;
+			productReference = 46FC172C1DBB1401005D22BA /* RedChips.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46FC173F1DBB1401005D22BA /* RedChipsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FC17571DBB1401005D22BA /* Build configuration list for PBXNativeTarget "RedChipsTests" */;
+			buildPhases = (
+				46FC173C1DBB1401005D22BA /* Sources */,
+				46FC173D1DBB1401005D22BA /* Frameworks */,
+				46FC173E1DBB1401005D22BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FC17421DBB1401005D22BA /* PBXTargetDependency */,
+			);
+			name = RedChipsTests;
+			productName = RedChipsTests;
+			productReference = 46FC17401DBB1401005D22BA /* RedChipsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46FC174A1DBB1401005D22BA /* RedChipsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46FC175A1DBB1401005D22BA /* Build configuration list for PBXNativeTarget "RedChipsUITests" */;
+			buildPhases = (
+				46FC17471DBB1401005D22BA /* Sources */,
+				46FC17481DBB1401005D22BA /* Frameworks */,
+				46FC17491DBB1401005D22BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FC174D1DBB1401005D22BA /* PBXTargetDependency */,
+			);
+			name = RedChipsUITests;
+			productName = RedChipsUITests;
+			productReference = 46FC174B1DBB1401005D22BA /* RedChipsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46FC17241DBB1400005D22BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Savings iOS Dev";
+				TargetAttributes = {
+					46FC172B1DBB1401005D22BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q8K5LFSE6P;
+						ProvisioningStyle = Automatic;
+					};
+					46FC173F1DBB1401005D22BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q8K5LFSE6P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46FC172B1DBB1401005D22BA;
+					};
+					46FC174A1DBB1401005D22BA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q8K5LFSE6P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46FC172B1DBB1401005D22BA;
+					};
+				};
+			};
+			buildConfigurationList = 46FC17271DBB1400005D22BA /* Build configuration list for PBXProject "RedChips" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46FC17231DBB1400005D22BA;
+			productRefGroup = 46FC172D1DBB1401005D22BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46FC172B1DBB1401005D22BA /* RedChips */,
+				46FC173F1DBB1401005D22BA /* RedChipsTests */,
+				46FC174A1DBB1401005D22BA /* RedChipsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46FC172A1DBB1401005D22BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FC173A1DBB1401005D22BA /* LaunchScreen.storyboard in Resources */,
+				46FC17371DBB1401005D22BA /* Assets.xcassets in Resources */,
+				46FC17351DBB1401005D22BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FC173E1DBB1401005D22BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FC17491DBB1401005D22BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46FC17281DBB1401005D22BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FC17321DBB1401005D22BA /* ViewController.swift in Sources */,
+				46FC17301DBB1401005D22BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FC173C1DBB1401005D22BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FC17451DBB1401005D22BA /* RedChipsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46FC17471DBB1401005D22BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46FC17501DBB1401005D22BA /* RedChipsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46FC17421DBB1401005D22BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FC172B1DBB1401005D22BA /* RedChips */;
+			targetProxy = 46FC17411DBB1401005D22BA /* PBXContainerItemProxy */;
+		};
+		46FC174D1DBB1401005D22BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46FC172B1DBB1401005D22BA /* RedChips */;
+			targetProxy = 46FC174C1DBB1401005D22BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46FC17331DBB1401005D22BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FC17341DBB1401005D22BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46FC17381DBB1401005D22BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46FC17391DBB1401005D22BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46FC17521DBB1401005D22BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46FC17531DBB1401005D22BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46FC17551DBB1401005D22BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8K5LFSE6P;
+				INFOPLIST_FILE = RedChips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savingiosdev.RedChips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		46FC17561DBB1401005D22BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q8K5LFSE6P;
+				INFOPLIST_FILE = RedChips/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savingiosdev.RedChips;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		46FC17581DBB1401005D22BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q8K5LFSE6P;
+				INFOPLIST_FILE = RedChipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savingiosdev.RedChipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedChips.app/RedChips";
+			};
+			name = Debug;
+		};
+		46FC17591DBB1401005D22BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q8K5LFSE6P;
+				INFOPLIST_FILE = RedChipsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savingiosdev.RedChipsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedChips.app/RedChips";
+			};
+			name = Release;
+		};
+		46FC175B1DBB1401005D22BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q8K5LFSE6P;
+				INFOPLIST_FILE = RedChipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savingiosdev.RedChipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RedChips;
+			};
+			name = Debug;
+		};
+		46FC175C1DBB1401005D22BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q8K5LFSE6P;
+				INFOPLIST_FILE = RedChipsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savingiosdev.RedChipsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RedChips;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46FC17271DBB1400005D22BA /* Build configuration list for PBXProject "RedChips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FC17521DBB1401005D22BA /* Debug */,
+				46FC17531DBB1401005D22BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46FC17541DBB1401005D22BA /* Build configuration list for PBXNativeTarget "RedChips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FC17551DBB1401005D22BA /* Debug */,
+				46FC17561DBB1401005D22BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46FC17571DBB1401005D22BA /* Build configuration list for PBXNativeTarget "RedChipsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FC17581DBB1401005D22BA /* Debug */,
+				46FC17591DBB1401005D22BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46FC175A1DBB1401005D22BA /* Build configuration list for PBXNativeTarget "RedChipsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46FC175B1DBB1401005D22BA /* Debug */,
+				46FC175C1DBB1401005D22BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46FC17241DBB1400005D22BA /* Project object */;
+}
